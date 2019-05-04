@@ -50,12 +50,12 @@ console/ELK三件套：5601
 默认用户名密码请打听,聪明如你甚至不需要打听
 
 
-如何创建流程？
+1. 如何创建流程？
 
 导航切换到process model页面，new一个
 
 
-如何创建服务与业务规则？
+2. 如何创建服务与业务规则？
 
 导航切换，new一个
 
@@ -71,12 +71,12 @@ br class同理
 
 
 
-如何使用human_task?
+3. 如何使用human_task?
 
 url请使用http://localhost:8081/服务名/api/artifact名
 
 
-如何使用invoke_service/定义自动服务/第三方服务的逻辑？
+4. 如何使用invoke_service/定义自动服务/第三方服务的逻辑？
 
 这个有点复杂
 
@@ -88,12 +88,12 @@ url请使用http://domain:port/随便写什么/服务名Y
 
 
 
-如何启动流程实例？
+5. 如何启动流程实例？
 
 从流程模型的第4栏中new一个，点点玩一下就会了
 
 
-如何看registry内容？
+6. 如何看registry内容？
 
 访问localhost:8761
 
@@ -101,7 +101,7 @@ url请使用http://domain:port/随便写什么/服务名Y
 
 
 
-如何看ELK三件套监控内容？
+7. 如何看ELK三件套监控内容？
 
 访问localhost:5601
 
@@ -111,7 +111,7 @@ url请使用http://domain:port/随便写什么/服务名Y
 
 
 
-如何scale我的服务？
+8. 如何scale我的服务？
 
 请参考https://www.jhipster.tech/microservices-in-production/
 
